@@ -36,6 +36,7 @@ public class LoginTest {
 	public void validlogin() {
 		String title = driver.getTitle();
 		System.out.println("The page title is: "+title);
+		System.out.println("Success Success");
 		Assert.assertEquals(title, "Login | Salesforce");
 			
 	}
